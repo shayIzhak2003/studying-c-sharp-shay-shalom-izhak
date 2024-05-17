@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classes\Level2.cs" />
-    <Compile Include="classes\Level1.cs" />
+    <Compile Include="Task1\Level2.cs" />
+    <Compile Include="Task1\Level1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

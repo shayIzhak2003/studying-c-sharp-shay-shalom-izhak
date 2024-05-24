@@ -67,11 +67,26 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App
             Console.WriteLine();
 
             b2.DisplayBuildingProps();
-
             Console.WriteLine();
             foreach (var apartment in b2.numOfApartments)
             {
                 apartment.DisplayApartmentProps();
+            }
+
+            // Display the most expensive apartment for each building
+            int mostExpensiveAptIndexB1 = FindMostExpensiveApartment(b1);
+            int mostExpensiveAptIndexB2 = FindMostExpensiveApartment(b2);
+
+            if (mostExpensiveAptIndexB1 >= 0)
+            {
+                Console.WriteLine($"\nMost expensive apartment in Building {b1.BuildingNumber}:");
+                b1.numOfApartments[mostExpensiveAptIndexB1].DisplayApartmentProps();
+            }
+
+            if (mostExpensiveAptIndexB2 >= 0)
+            {
+                Console.WriteLine($"\nMost expensive apartment in Building {b2.BuildingNumber}:");
+                b2.numOfApartments[mostExpensiveAptIndexB2].DisplayApartmentProps();
             }
         }
 
@@ -87,6 +102,23 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App
                     OwnerName = names[random.Next(names.Length)]
                 };
             }
+        }
+
+        private static int FindMostExpensiveApartment(BuildingAppMain building)
+        {
+            int mostExpensiveIndex = -1;
+            double highestPrice = double.MinValue;
+
+            for (int i = 0; i < building.numOfApartments.Length; i++)
+            {
+                if (building.numOfApartments[i].Price > highestPrice)
+                {
+                    highestPrice = building.numOfApartments[i].Price;
+                    mostExpensiveIndex = i;
+                }
+            }
+
+            return mostExpensiveIndex;
         }
     }
 }

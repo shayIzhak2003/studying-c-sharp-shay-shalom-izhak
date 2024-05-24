@@ -1,4 +1,5 @@
 ﻿using studying_c_sharp_shay_shalom_izhak.classes;
+using studying_c_sharp_shay_shalom_izhak.Demo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace studying_c_sharp_shay_shalom_izhak
     {
         static void Main(string[] args)
         {
-            Level1.RunProcess();        
+            Level1.RunProcess();
+            TestBasicObject.Demo();
         }
     }
 }

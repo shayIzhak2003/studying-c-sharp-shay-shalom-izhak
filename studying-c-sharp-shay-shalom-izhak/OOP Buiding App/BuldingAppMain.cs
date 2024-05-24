@@ -73,7 +73,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App
                 apartment.DisplayApartmentProps();
             }
 
-            // Display the most expensive apartment for each building
+           
             int mostExpensiveAptIndexB1 = FindMostExpensiveApartment(b1);
             int mostExpensiveAptIndexB2 = FindMostExpensiveApartment(b2);
 

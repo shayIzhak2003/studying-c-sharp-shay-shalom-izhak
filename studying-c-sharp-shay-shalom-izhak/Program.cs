@@ -12,7 +12,7 @@ namespace studying_c_sharp_shay_shalom_izhak
     {
         static void Main(string[] args)
         {
-            Level1.RunProcess();
+            //Level1.RunProcess();
             TestBasicObject.Demo();
         }
     }

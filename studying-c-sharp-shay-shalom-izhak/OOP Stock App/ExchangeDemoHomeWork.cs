@@ -10,50 +10,78 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Stock_App
     {
         public static void Demo()
         {
-            // Create instances for three stocks
+            
             Stock apple = new Stock("Apple Inc.", "AAPL", "Technology", "NASDAQ");
             Stock tesla = new Stock("Tesla Inc.", "TSLA", "Automobile", "NASDAQ");
             Stock coke = new Stock("Coca-Cola Company", "COKE", "Beverages", "NYSE");
 
-            // Set starting prices (hypothetical values)
+           
             apple.StartDay(150.00m);
             tesla.StartDay(600.00m);
             coke.StartDay(55.00m);
 
-            // Display details after start day
+            
             apple.DisplayPrice();
             tesla.DisplayPrice();
             coke.DisplayPrice();
 
-            // Set higher prices during the day (hypothetical values)
+            
             apple.SetPrice(155.00m);
             tesla.SetPrice(610.00m);
             coke.SetPrice(57.00m);
 
-            // Display details after setting higher prices
+            
             apple.DisplayPrice();
             tesla.DisplayPrice();
             coke.DisplayPrice();
 
-            // Attempt to print percentage change (should be rejected as the day is active)
+           
             apple.PrintChangesPercentage();
             tesla.PrintChangesPercentage();
             coke.PrintChangesPercentage();
 
-            // Close the day with closing prices (hypothetical values)
+          
             apple.FinishDay(153.00m);
             tesla.FinishDay(605.00m);
             coke.FinishDay(56.00m);
 
-            // Display details after closing day
+            
             apple.DisplayPrice();
             tesla.DisplayPrice();
             coke.DisplayPrice();
 
-            // Print percentage change
+           
             apple.PrintChangesPercentage();
             tesla.PrintChangesPercentage();
             coke.PrintChangesPercentage();
+
+          
+            PrintTheBestStockOption(new List<Stock> { apple, tesla, coke });
+        }
+
+        public static void PrintTheBestStockOption(List<Stock> stocks)
+        {
+            Stock bestStock = null;
+            decimal maxChange = decimal.MinValue;
+
+            foreach (var stock in stocks)
+            {
+                decimal change = stock.GetPercentageChange();
+                if (change > maxChange)
+                {
+                    maxChange = change;
+                    bestStock = stock;
+                }
+            }
+
+            if (bestStock != null)
+            {
+                Console.WriteLine($"The best stock option is {bestStock.Sign} with a percentage change of {maxChange:F2}%.");
+            }
+            else
+            {
+                Console.WriteLine("No best stock option available.");
+            }
         }
     }
 
@@ -106,9 +134,18 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Stock_App
             }
             else
             {
-                decimal percentChange = ((ClosingPrice - StartingPrice) / StartingPrice) * 100;
+                decimal percentChange = GetPercentageChange();
                 Console.WriteLine($"Percentage change for {Sign}: {percentChange:F2}%");
             }
+        }
+
+        public decimal GetPercentageChange()
+        {
+            if (!IsDayActive)
+            {
+                return ((ClosingPrice - StartingPrice) / StartingPrice) * 100;
+            }
+            return 0;
         }
 
         public void DisplayPrice()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_shay_shalom_izhak.classes
 {
-    internal class Level1
+    public class Level1
     {
         //members = proporties
         public static string name = "shay";

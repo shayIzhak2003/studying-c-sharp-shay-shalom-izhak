@@ -136,6 +136,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_Stock_App
             {
                 decimal percentChange = GetPercentageChange();
                 Console.WriteLine($"Percentage change for {Sign}: {percentChange:F2}%");
+             
             }
         }
 

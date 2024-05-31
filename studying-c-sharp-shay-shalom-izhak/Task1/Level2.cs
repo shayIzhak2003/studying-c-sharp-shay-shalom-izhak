@@ -1,4 +1,5 @@
-﻿using System;
+﻿using studying_c_sharp_shay_shalom_izhak.Task1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_shay_shalom_izhak.classes
 {
-    public class Level1
+    public class Level2
     {
         //members = proporties
-        public static string name = "shay";
+        public static string name = "Level2";
         //functions
         public static void RunProcess()
         {
-            Console.WriteLine($"Level1 - name : {name}");
-            Level2.RunProcess();
+            Console.WriteLine($"hi , i am class :{name}");
+            Level_3_1.RunProcess();
+            Level_3_2.RunProcess();
         }
     }
 }

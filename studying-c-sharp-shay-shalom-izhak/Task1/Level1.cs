@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_shay_shalom_izhak.classes
 {
-    public class Level2
+    public class Level1
     {
         //members = proporties
-        public static string name = "izhak";
+        public static string name = "Level1";
         //functions
         public static void RunProcess()
         {
-            Console.WriteLine($"Level2 - name : {name}");
+            Console.WriteLine($"hi , i am class :{name}");
+            Level2.RunProcess();
         }
     }
 }

@@ -46,6 +46,7 @@
     <Compile Include="classes\Level2.cs" />
     <Compile Include="classes\Level1.cs" />
     <Compile Include="Demo\ObjectTamplate.cs" />
+    <Compile Include="Demo\ThisKeyword.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />

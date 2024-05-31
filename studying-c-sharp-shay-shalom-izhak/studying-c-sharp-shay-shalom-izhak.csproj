@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="classes\Level2.cs" />
     <Compile Include="classes\Level1.cs" />
+    <Compile Include="Demo\AccessModifiers.cs" />
     <Compile Include="Demo\ObjectTamplate.cs" />
     <Compile Include="Demo\ThisKeyword.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />

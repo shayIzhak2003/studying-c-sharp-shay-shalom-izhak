@@ -19,7 +19,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //TestBasicObject.Demo();
             //TestBasicObject2.Demo();
             //ExchangeDemoHomeWork.Demo();
-            ThisKeyword.Demo();
+            //ThisKeyword.Demo();
+            AccessModifiers.Demo();
         }
     }
 }

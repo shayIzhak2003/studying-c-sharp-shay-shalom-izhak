@@ -7,7 +7,7 @@ namespace c_sharp_basics_lingar.object_basics
         public static void DoDiscount(Phone phone)
         {
             // Apply discount
-            phone.price *= 0.9;
+            phone.SetPrice(phone.GetPrice() * 0.9);
         }
 
         public static string TheBestOffer(Phone[] arr, string name, double offer)
@@ -17,7 +17,7 @@ namespace c_sharp_basics_lingar.object_basics
 
             for (int i = 0; i < arr.Length; i++)
             {
-                double discountedPrice = arr[i].price * (1 - offer);
+                double discountedPrice = arr[i].GetPrice() * (1 - offer);
                 if (discountedPrice < minPrice)
                 {
                     minPrice = discountedPrice;
@@ -27,7 +27,7 @@ namespace c_sharp_basics_lingar.object_basics
 
             if (bestPhone != null)
             {
-                return $"The best offer for {name} is {bestPhone.color} phone with a price of {minPrice:F2}.";
+                return $"The best offer for {name} is {bestPhone.GetColor()} phone with a price of {minPrice:F2}.";
             }
             else
             {
@@ -38,11 +38,11 @@ namespace c_sharp_basics_lingar.object_basics
         public static void Demo()
         {
             Phone p = new Phone("black", 20);
-            Console.WriteLine("color = " + p.color + "|price = " + p.price);
+            Console.WriteLine("color = " + p.GetColor() + "|price = " + p.GetColor());
             Phone p2 = new Phone();
-            Console.WriteLine("color = " + p2.color + "|price = " + p2.price);
+            Console.WriteLine("color = " + p2.GetColor() + "|price = " + p2.GetColor());
             Phone p3 = new Phone(200);
-            Console.WriteLine("color = " + p3.color + "|price = " + p3.price);
+            Console.WriteLine("color = " + p3.GetColor() + "|price = " + p3.GetColor());
             Console.WriteLine();
 
             p.DoCount();
@@ -50,9 +50,9 @@ namespace c_sharp_basics_lingar.object_basics
             p3.DoCount();
 
             Console.WriteLine("price after discount:");
-            Console.WriteLine("color = " + p.color + "|price = " + p.price);
-            Console.WriteLine("color = " + p2.color + "|price = " + p2.price);
-            Console.WriteLine("color = " + p3.color + "|price = " + p3.price);
+            Console.WriteLine("color = " + p.GetColor() + "|price = " + p.GetColor());
+            Console.WriteLine("color = " + p2.GetColor() + "|price = " + p2.GetColor());
+            Console.WriteLine("color = " + p3.GetColor() + "|price = " + p3.GetColor());
             Console.WriteLine();
 
             Phone[] phones = { p, p2, p3 };
@@ -69,9 +69,27 @@ namespace c_sharp_basics_lingar.object_basics
 
     public class Phone
     {
-        public string color = "white";
-        public double price = 0;
+        private string color = "white";
+        private double price = 0;
 
+
+        public string GetColor()
+        {
+            return this.color;
+        }
+        public void SetColor(string color)
+        {
+             this.color = color;
+        }
+
+        public double GetPrice()
+        {
+            return this.price;
+        }
+        public void SetPrice(double price)
+        {
+            this.price = price;
+        }
         public Phone(string color, double price)
         {
             // Assign parameters to instance variables

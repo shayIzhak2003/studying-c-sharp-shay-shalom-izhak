@@ -2,6 +2,7 @@
 using studying_c_sharp_shay_shalom_izhak.classes;
 using studying_c_sharp_shay_shalom_izhak.Demo;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Circle;
+using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Rectangle;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
 using System;
@@ -22,8 +23,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //ExchangeDemoHomeWork.Demo();
             //ThisKeyword.Demo();
             //AccessModifiers.Demo();
-
-            TestCircle.DemoMain();
+            //TestCircle.DemoMain();
+            TestRectangle.RunRectangle();
         }
     }
 }

@@ -51,6 +51,7 @@
     <Compile Include="Lesson3 HomeWork\Circle\Circle.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\Circle2.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\TestCircle.cs" />
+    <Compile Include="Lesson3 HomeWork\Rectangle\Rectangle.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />
@@ -59,5 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

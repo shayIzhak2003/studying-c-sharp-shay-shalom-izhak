@@ -60,6 +60,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author
 
     public class TestBook
     {
+        #region
         public static void RunBook()
         {
            
@@ -85,7 +86,9 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author
                 book2.SetQty(8);
                 Console.WriteLine("\nAfter updating book2 details:");
                 Console.WriteLine(book2.ToString());
-            
+
+            #endregion
+
         }
     }
 

@@ -54,6 +54,7 @@
     <Compile Include="Lesson3 HomeWork\Circle\Circle2.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\TestCircle.cs" />
     <Compile Include="Lesson3 HomeWork\Rectangle\Rectangle.cs" />
+    <Compile Include="Lesson6\Polymorphism\Animal.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />

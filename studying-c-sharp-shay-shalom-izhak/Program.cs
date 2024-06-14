@@ -4,6 +4,7 @@ using studying_c_sharp_shay_shalom_izhak.Demo;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Circle;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Rectangle;
+using studying_c_sharp_shay_shalom_izhak.Lesson6.Polymorphism;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
 using System;
@@ -27,7 +28,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //TestCircle.DemoMain();
             //TestRectangle.RunRectangle();
             //TestAuthor.RunAuthor();
-            TestBook.RunBook();
+            //TestBook.RunBook();
+            RunAnimal.DemoMain();
         }
     }
 }

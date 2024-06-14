@@ -28,7 +28,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson6.Polymorphism
 
     public class RunAnimal
     {
-        public static void DemoMain()
+        public static void DemoMain() 
         {
             Animal myAnimal = new Animal();  // Create an Animal object
             Animal myPig = new Pig();  // Create a Pig object

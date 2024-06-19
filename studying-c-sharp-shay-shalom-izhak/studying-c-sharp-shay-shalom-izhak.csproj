@@ -58,6 +58,9 @@
     <Compile Include="Lesson6\Lesson6 Home -Work\RunObjects.cs" />
     <Compile Include="Lesson6\Polymorphism\Animal.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
+    <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
+    <Compile Include="OOP DB App\Common\MainObjectRun.cs" />
+    <Compile Include="OOP DB App\Objects.cs" />
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -58,7 +58,10 @@
     <Compile Include="Lesson6\Lesson6 Home -Work\RunObjects.cs" />
     <Compile Include="Lesson6\Polymorphism\Animal.cs" />
     <Compile Include="Lesson7\ElectricProduct.cs" />
+    <Compile Include="Lesson7\Enom\EnumEx.cs" />
     <Compile Include="Lesson7\RunElectricApp.cs" />
+    <Compile Include="Lesson7\Virtual + Ovveride\Animal2.cs" />
+    <Compile Include="Lesson7\Virtual + Ovveride\Shape.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
     <Compile Include="OOP DB App\Common\MainObjectRun.cs" />

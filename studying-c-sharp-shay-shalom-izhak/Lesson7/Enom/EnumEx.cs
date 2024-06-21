@@ -18,7 +18,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7.Enom
             Saturday,
             Sunday
         }
-        public static void DemoMain()
+        static void DemoMain()
         {
             // Using enums
             DaysOfWeek today = DaysOfWeek.Wednesday;

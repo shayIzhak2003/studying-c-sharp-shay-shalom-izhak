@@ -6,6 +6,7 @@ using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Circle;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Rectangle;
 using studying_c_sharp_shay_shalom_izhak.Lesson6.Lesson6_Home__Work;
 using studying_c_sharp_shay_shalom_izhak.Lesson6.Polymorphism;
+using studying_c_sharp_shay_shalom_izhak.Lesson7;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
@@ -33,8 +34,10 @@ namespace studying_c_sharp_shay_shalom_izhak
             //TestBook.RunBook();
             //RunAnimal.DemoMain();
             //RunObjects.DemoMain();
-            RunApp.Run();
-            
+            //RunApp.Run();
+            RunElectricApp.DemoMain();
+
+
         }
     }
 }

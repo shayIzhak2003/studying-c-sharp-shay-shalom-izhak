@@ -11,19 +11,28 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7
         public static void DemoMain()
         {
 
-            ElectronicProduct electronicProduct = new ElectronicProduct("Sony", "GenericModel", 150.00);
-            ElectronicProduct screen = new Screen("Samsung", "UltraSharp", 499.99, 27.0, "4K", true);
-            var tv = new Tv("LG", "SuperHD", 999.99, 65.0, "8K", true, "South Korea", "Wall-mounted");
 
-            
+            // Creating instances of each class
+            var electronicProduct = new ElectronicProduct("Generic", "ModelX", 99.99);
+            var screen = new Screen("Samsung", "Q90T", 1299.99, 65, "4K", true);
+            var tv = new Tv("LG", "OLED55C1", 1499.99, 55, "4K", true, "South Korea", "Living Room");
+            var playStation = new PlayStation("Sony", "PS5", 499.99, 825, "PlayStation 5", true);
+
+            // Printing the details of each product
             Console.WriteLine("Electronic Product:");
             Console.WriteLine(electronicProduct.ToString());
+            Console.WriteLine();
 
-            Console.WriteLine("\nScreen:");
+            Console.WriteLine("Screen:");
             Console.WriteLine(screen.ToString());
+            Console.WriteLine();
 
-            Console.WriteLine("\nTV:");
+            Console.WriteLine("TV:");
             Console.WriteLine(tv.ToString());
+            Console.WriteLine();
+
+            Console.WriteLine("PlayStation:");
+            Console.WriteLine(playStation.ToString());
         }
     }
 }

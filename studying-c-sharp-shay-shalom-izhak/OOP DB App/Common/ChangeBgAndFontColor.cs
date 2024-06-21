@@ -10,6 +10,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
     {
         public void ChangeBackgroundColor()
         {
+            Console.Clear();
             Console.WriteLine("Choose a background color:");
             foreach (var color in Enum.GetValues(typeof(ConsoleColor)))
             {
@@ -31,6 +32,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         public void ChangeFontColor()
         {
+            Console.Clear();
             Console.WriteLine("Choose a font color:");
             foreach (var color in Enum.GetValues(typeof(ConsoleColor)))
             {
@@ -49,16 +51,16 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
             }
         }
     }
-    public class RunApp
-    {
-        public static void Run()
-        {
+    //public class RunApp
+    //{
+    //    public static void Run()
+    //    {
 
-            MainObjectRun app = new MainObjectRun();
-            app.Run();
+    //        MainObjectRun app = new MainObjectRun();
+    //        app.Run();
 
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
-        }
-    }
+    //        Console.WriteLine("Press any key to exit...");
+    //        Console.ReadKey();
+    //    }
+    //}
 }

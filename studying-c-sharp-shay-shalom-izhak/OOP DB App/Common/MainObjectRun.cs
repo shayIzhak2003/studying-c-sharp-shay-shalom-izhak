@@ -60,6 +60,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void AddNewCustomer()
         {
+            Console.Clear();
             try
             {
                 Console.Write("Enter customer name: ");
@@ -93,6 +94,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void ListAllCustomers()
         {
+            Console.Clear();
             if (customers.Count == 0)
             {
                 Console.WriteLine("No customers found.");
@@ -109,6 +111,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void PrintDetailedCustomerInfo()
         {
+            Console.Clear();
             if (customers.Count == 0)
             {
                 Console.WriteLine("No customers found.");
@@ -129,6 +132,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void ManageStocks()
         {
+            Console.Clear();
             Console.Write("Enter the customer index (1, 2, 3, etc.): ");
             if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= customers.Count)
             {
@@ -169,6 +173,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void BuyStocks(stockCusomers customer)
         {
+            Console.Clear();
             try
             {
                 Console.Write("Enter the quantity of stocks to buy: ");
@@ -187,6 +192,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void SellPartOfStocks(stockCusomers customer)
         {
+            Console.Clear();
             try
             {
                 Console.Write("Enter the quantity of stocks to sell: ");
@@ -202,6 +208,7 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
 
         private void SellAllStocks(stockCusomers customer)
         {
+            Console.Clear();
             try
             {
                 customer.SellAllStocks();
@@ -211,7 +218,18 @@ namespace studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common
                 Console.WriteLine("Error selling all stocks: " + ex.Message);
             }
         }
-        
-     
+
+    }
+    public class RunApp
+    {
+        public static void Run()
+        {
+
+            MainObjectRun app = new MainObjectRun();
+            app.Run();
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
     }
 }

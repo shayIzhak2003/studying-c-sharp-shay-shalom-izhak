@@ -39,9 +39,9 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunApp.Run();
             //RunElectricApp.DemoMain();
             //EnumEx.DemoMain();
-            RunAnimal2.RunDemo();
-            RunShape.RunDeom();
-
+            //RunAnimal2.RunDemo();
+            //RunShape.RunDeom();
+            RunShape2EX.DemoMain();
 
         }
     }

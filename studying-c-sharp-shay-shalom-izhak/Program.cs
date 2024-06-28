@@ -45,7 +45,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunShape.RunDeom();
             //RunShape2EX.DemoMain();
             //Object_var.DemoMain();
-            RunShap3.DemoMain();
+            //RunShap3.DemoMain();
+            RunAnimals1.Run();
         }
     }
 }

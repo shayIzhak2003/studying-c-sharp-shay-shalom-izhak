@@ -63,6 +63,8 @@
     <Compile Include="Lesson7\Virtual + Ovveride\Animal2.cs" />
     <Compile Include="Lesson7\Virtual + Ovveride\Shape.cs" />
     <Compile Include="Lesson7\Virtual + Ovveride\Shape2EX.cs" />
+    <Compile Include="Lesson8\Casting\Shap3.cs" />
+    <Compile Include="Lesson8\ObVar.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
     <Compile Include="OOP DB App\Common\MainObjectRun.cs" />

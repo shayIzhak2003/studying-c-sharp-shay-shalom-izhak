@@ -66,6 +66,7 @@
     <Compile Include="Lesson8\Casting\Animals1.cs" />
     <Compile Include="Lesson8\Casting\Shap3.cs" />
     <Compile Include="Lesson8\ObVar.cs" />
+    <Compile Include="Lesson9\ProjectEuler.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
     <Compile Include="OOP DB App\Common\MainObjectRun.cs" />

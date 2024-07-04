@@ -74,12 +74,14 @@
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trensportaion app\Person.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson7\Equals Mathod\" />
+    <Folder Include="Trensportaion app\Cummon\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

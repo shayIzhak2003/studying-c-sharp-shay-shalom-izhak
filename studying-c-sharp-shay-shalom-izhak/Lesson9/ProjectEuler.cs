@@ -200,6 +200,63 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson9
 
             Console.WriteLine($"The greatest product of thirteen adjacent digits is: {maxProduct}");
             */
+            //EX9
+            /*
+            int product = 0;
+
+            for (int a = 1; a < 1000 / 3; a++) // a < 1000/3
+            {
+                for (int b = a + 1; b < 1000 / 2; b++) // b < 1000/2 and b > a
+                {
+                    int c = 1000 - a - b; // calculate c
+
+                    if (a < b && b < c && a + b + c == 1000)
+                    {
+                        product = a * b * c;
+                        Console.WriteLine($"a: {a}, b: {b}, c: {c}");
+                        Console.WriteLine($"The product abc is: {product}");
+                        return; // exit once the solution is found
+                    }
+                }
+            }
+
+            Console.WriteLine($"No solution found.");
+            */
+            /*
+             //EX10
+            const int limit = 2000000;
+            long sum = 0; // Use long to handle large sums
+            bool[] isPrime = new bool[limit];
+
+            // Initialize the array. Assume all numbers are prime initially
+            for (int i = 2; i < limit; i++)
+            {
+                isPrime[i] = true;
+            }
+
+            // Sieve of Eratosthenes
+            for (int i = 2; i < Math.Sqrt(limit); i++)
+            {
+                if (isPrime[i])
+                {
+                    for (int j = i * i; j < limit; j += i)
+                    {
+                        isPrime[j] = false;
+                    }
+                }
+            }
+
+            // Sum all prime numbers
+            for (int i = 2; i < limit; i++)
+            {
+                if (isPrime[i])
+                {
+                    sum += i;
+                }
+            }
+
+            Console.WriteLine($"The sum of all primes below {limit} is: {sum}");
+            */
 
         }
         //EX4 function

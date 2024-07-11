@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_shay_shalom_izhak.Lesson10
 {
-    abstract class Animal
+    abstract class AnimalEx
     {
         // Abstract method (does not have a body)
         public abstract void animalSound();
@@ -18,7 +18,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
     }
 
     // Derived class (inherit from Animal)
-    class Pig : Animal
+    class Pig : AnimalEx
     {
         public override void animalSound()
         {

@@ -49,6 +49,8 @@
     <Compile Include="Demo\ObjectTamplate.cs" />
     <Compile Include="Demo\ThisKeyword.cs" />
     <Compile Include="Lesson10\AbstractEx.cs" />
+    <Compile Include="Lesson10\Animales.cs" />
+    <Compile Include="Lesson10\WorkItem.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Author.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Book.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\Circle.cs" />

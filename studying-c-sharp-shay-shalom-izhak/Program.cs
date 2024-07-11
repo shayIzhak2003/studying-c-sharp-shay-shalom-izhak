@@ -52,7 +52,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunAnimals1.Run();
             //ProjectEuler.DemoMain();
             //GetUserIp.DemoMain();
-            RunAbstractEx.DemoMain();
+            //RunAbstractEx.DemoMain();
+            RunWorkItem.DemoMain();
             
         }
     }

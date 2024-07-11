@@ -48,6 +48,7 @@
     <Compile Include="Demo\AccessModifiers.cs" />
     <Compile Include="Demo\ObjectTamplate.cs" />
     <Compile Include="Demo\ThisKeyword.cs" />
+    <Compile Include="Lesson10\AbstractEx.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Author.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Book.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\Circle.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Lesson8\Casting\Shap3.cs" />
     <Compile Include="Lesson8\ObVar.cs" />
     <Compile Include="Lesson9\ProjectEuler.cs" />
+    <Compile Include="Networking\GetUserIp.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
     <Compile Include="OOP DB App\Common\MainObjectRun.cs" />

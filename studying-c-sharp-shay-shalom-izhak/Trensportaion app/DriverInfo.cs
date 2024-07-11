@@ -23,7 +23,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Transportation_app
             this.driverInfosArr = driverInfosArr;
             this.CalculateMoneyPerHour(); // Calculate and set MoneyPerHour
         }
-
+        
         // Calculate MoneyPerHour based on seniority
         public void CalculateMoneyPerHour()
         {

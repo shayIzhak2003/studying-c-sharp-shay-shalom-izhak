@@ -12,6 +12,7 @@ using studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride;
 using studying_c_sharp_shay_shalom_izhak.Lesson8;
 using studying_c_sharp_shay_shalom_izhak.Lesson8.Casting;
 using studying_c_sharp_shay_shalom_izhak.Lesson9;
+using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
@@ -48,7 +49,9 @@ namespace studying_c_sharp_shay_shalom_izhak
             //Object_var.DemoMain();
             //RunShap3.DemoMain();
             //RunAnimals1.Run();
-            ProjectEuler.DemoMain();
+            //ProjectEuler.DemoMain();
+            GetUserIp.DemoMain();
+            
         }
     }
 }

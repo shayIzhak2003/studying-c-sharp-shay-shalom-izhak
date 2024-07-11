@@ -1,6 +1,7 @@
 ﻿using c_sharp_basics_lingar.object_basics;
 using studying_c_sharp_shay_shalom_izhak.classes;
 using studying_c_sharp_shay_shalom_izhak.Demo;
+using studying_c_sharp_shay_shalom_izhak.Lesson10;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Circle;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Rectangle;
@@ -50,7 +51,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunShap3.DemoMain();
             //RunAnimals1.Run();
             //ProjectEuler.DemoMain();
-            GetUserIp.DemoMain();
+            //GetUserIp.DemoMain();
+            RunAbstractEx.DemoMain();
             
         }
     }

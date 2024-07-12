@@ -56,6 +56,11 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunWorkItem.DemoMain();
 
             RunVehicle.DemoMain();
+            Console.WriteLine("============");
+            RunOverloadDemo.DemoMain();
+            Console.WriteLine("============");
+            CastingDemo.DemoMain();
+            Console.WriteLine("============");
         }
     }
 }

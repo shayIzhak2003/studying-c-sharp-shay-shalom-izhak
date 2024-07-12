@@ -30,13 +30,21 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
     {
         public static void DemoMain()
         {
+            VehicleManager manager = new VehicleManager();
+
             Vehicle car = new Vehicle("Toyota", "Camry", 2020, VehicleType.Car);
             Vehicle motorcycle = new Vehicle("Harley-Davidson", "Iron 883", 2021, VehicleType.Motorcycle);
             Vehicle bus = new Vehicle("Mercedes-Benz", "Citaro", 2018, VehicleType.Bus);
 
-            car.DisplayInfo();
-            motorcycle.DisplayInfo();
-            bus.DisplayInfo();
+            manager.AddVehicle(car);
+            manager.AddVehicle(motorcycle);
+            manager.AddVehicle(bus);
+
+            manager.DisplayAllVehicles();
+
+            manager.RemoveVehicle(motorcycle);
+
+            manager.DisplayAllVehicles();
         }
     }
 }

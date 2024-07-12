@@ -21,6 +21,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
             IsPredator = isPredator;
             CaloriesPerMeal = caloriesPerMeal;
         }
+        public virtual int Eat()
+        {
+            return this.CaloriesPerMeal * 3;
+        }
 
         public override string ToString()
         {
@@ -37,6 +41,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
         {
             MilkCalories = milkCalories;
             PregnancyMonths = pregnancyMonths;
+        }
+        public override int Eat()
+        {
+            return base.Eat() + MilkCalories;
         }
 
         public override string ToString()
@@ -86,6 +94,11 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
             : base(name, age, isPredator, caloriesPerMeal, milkCalories, pregnancyMonths)
         {
             NumberOfCalves = numberOfCalves;
+        }
+
+        public override int Eat()
+        {
+            return base.Eat() / 4; 
         }
 
         public override string ToString()
@@ -141,5 +154,37 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
             return base.ToString() + $", Is Venomous: {IsVenomous}";
         }
     }
+    //part 2
+    public class Parrot : Bird
+    {
+        public string FeatherColor { get; set; }
+
+        public Parrot(string name, int age, bool isPredator, int caloriesPerMeal, double flightHeight, double wingSpan, string featherColor)
+            : base(name, age, isPredator, caloriesPerMeal, flightHeight, wingSpan)
+        {
+            FeatherColor = featherColor;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $", Feather Color: {FeatherColor}";
+        }
+    }
+    public class DairyCow : Cow
+    {
+        public double MilkProduction { get; set; } // liters per day
+
+        public DairyCow(string name, int age, bool isPredator, int caloriesPerMeal, int milkCalories, int pregnancyMonths, int numberOfCalves, double milkProduction)
+            : base(name, age, isPredator, caloriesPerMeal, milkCalories, pregnancyMonths, numberOfCalves)
+        {
+            MilkProduction = milkProduction;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $", Milk Production: {MilkProduction} liters/day";
+        }
+    }
+
 
 }

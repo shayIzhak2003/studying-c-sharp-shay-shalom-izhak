@@ -8,15 +8,15 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
 {
     public class VehicleManager
     {
-        public List<Vehicle> vehicles = new List<Vehicle>();
+        public List<IVehicle> vehicles = new List<IVehicle>();
 
-        public void AddVehicle(Vehicle vehicle)
+        public void AddVehicle(IVehicle vehicle)
         {
             vehicles.Add(vehicle);
             Console.WriteLine($"Added: {vehicle.Make} {vehicle.Model}");
         }
 
-        public void RemoveVehicle(Vehicle vehicle)
+        public void RemoveVehicle(IVehicle vehicle)
         {
             if (vehicles.Remove(vehicle))
             {

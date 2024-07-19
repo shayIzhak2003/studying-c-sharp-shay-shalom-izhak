@@ -2,6 +2,7 @@
 using studying_c_sharp_shay_shalom_izhak.classes;
 using studying_c_sharp_shay_shalom_izhak.Demo;
 using studying_c_sharp_shay_shalom_izhak.Lesson10;
+using studying_c_sharp_shay_shalom_izhak.Lesson11;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Circle;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Rectangle;
@@ -45,7 +46,7 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunElectricApp.DemoMain();
             //EnumEx.DemoMain();
             //RunAnimal2.RunDemo();
-            //RunShape.RunDeom();
+            RunShape.RunDeom();
             //RunShape2EX.DemoMain();
             //Object_var.DemoMain();
             //RunShap3.DemoMain();
@@ -54,13 +55,13 @@ namespace studying_c_sharp_shay_shalom_izhak
             //GetUserIp.DemoMain();
             //RunAbstractEx.DemoMain();
             //RunWorkItem.DemoMain();
-
-            RunVehicle.DemoMain();
-            Console.WriteLine("============");
-            RunOverloadDemo.DemoMain();
-            Console.WriteLine("============");
-            CastingDemo.DemoMain();
-            Console.WriteLine("============");
+            //RunVehicle.DemoMain();
+            //Console.WriteLine("============");
+            //RunOverloadDemo.DemoMain();
+            //Console.WriteLine("============");
+            //CastingDemo.DemoMain();
+            //Console.WriteLine("============");
+            RunApp2.DemoMain();
         }
     }
 }

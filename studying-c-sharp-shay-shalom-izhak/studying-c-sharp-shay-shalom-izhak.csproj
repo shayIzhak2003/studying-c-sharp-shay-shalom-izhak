@@ -57,6 +57,17 @@
     <Compile Include="Lesson10\VehicleManager.cs" />
     <Compile Include="Lesson10\VehicleType.cs" />
     <Compile Include="Lesson10\WorkItem.cs" />
+    <Compile Include="Lesson11\Art.cs" />
+    <Compile Include="Lesson11\IHangable.cs" />
+    <Compile Include="Lesson11\IPlayable.cs" />
+    <Compile Include="Lesson11\IStorable.cs" />
+    <Compile Include="Lesson11\Media.cs" />
+    <Compile Include="Lesson11\Painting.cs" />
+    <Compile Include="Lesson11\Picture.cs" />
+    <Compile Include="Lesson11\RunApp2.cs" />
+    <Compile Include="Lesson11\Television.cs" />
+    <Compile Include="Lesson11\Video.cs" />
+    <Compile Include="Lesson11\Wall.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Author.cs" />
     <Compile Include="Lesson3 HomeWork\Book + Author\Book.cs" />
     <Compile Include="Lesson3 HomeWork\Circle\Circle.cs" />

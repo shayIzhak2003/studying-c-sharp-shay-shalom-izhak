@@ -97,6 +97,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trensportaion app\DriverInfo.cs" />
     <Compile Include="Trensportaion app\Person.cs" />
+    <Compile Include="Yutube\RunYutubeApp.cs" />
+    <Compile Include="Yutube\User.cs" />
+    <Compile Include="Yutube\Video.cs" />
+    <Compile Include="Yutube\VideoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -18,6 +18,7 @@ using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Singleton;
 using studying_c_sharp_shay_shalom_izhak.Yutube;
 using System;
 using System.Collections.Generic;
@@ -63,7 +64,9 @@ namespace studying_c_sharp_shay_shalom_izhak
             //CastingDemo.DemoMain();
             //Console.WriteLine("============");
             //RunApp2.DemoMain();
-            RunYutubeApp.DemoMain();
+            //RunYutubeApp.DemoMain();
+            //RunSingleton.DemoMain();
+            RunUserManager.DemoMain();
         }
     }
 }

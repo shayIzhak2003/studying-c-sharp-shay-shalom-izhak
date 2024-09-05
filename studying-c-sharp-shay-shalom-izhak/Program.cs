@@ -14,6 +14,7 @@ using studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride;
 using studying_c_sharp_shay_shalom_izhak.Lesson8;
 using studying_c_sharp_shay_shalom_izhak.Lesson8.Casting;
 using studying_c_sharp_shay_shalom_izhak.Lesson9;
+using studying_c_sharp_shay_shalom_izhak.Mhate_Ex;
 using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
@@ -66,7 +67,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunApp2.DemoMain();
             //RunYutubeApp.DemoMain();
             //RunSingleton.DemoMain();
-            RunUserManager.DemoMain();
+            //RunUserManager.DemoMain();
+            RunFruit.DemoMain();
         }
     }
 }

@@ -96,6 +96,16 @@
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\Application.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkButton.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkCheckbox.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkThemeFactory.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\IButton.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\ICheckbox.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\IUIFactory.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightButton.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightCheckbox.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightThemeFactory.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\CarRenting.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\Singleton.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\User.cs" />

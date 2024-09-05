@@ -19,6 +19,7 @@ using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstract.UI_themes;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Singleton;
 using studying_c_sharp_shay_shalom_izhak.Yutube;
 using System;
@@ -68,7 +69,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunYutubeApp.DemoMain();
             //RunSingleton.DemoMain();
             //RunUserManager.DemoMain();
-            RunFruit.DemoMain();
+            //RunFruit.DemoMain();
+            RunApplication.DemoMain();
         }
     }
 }

@@ -106,6 +106,9 @@
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightButton.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightCheckbox.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightThemeFactory.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Facade\DVDPlayer.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Facade\Facade Class\HomeTheaterFacade.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Facade\RunFacadeDvdApp.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\Bike.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\BikeFactory.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\Car.cs" />

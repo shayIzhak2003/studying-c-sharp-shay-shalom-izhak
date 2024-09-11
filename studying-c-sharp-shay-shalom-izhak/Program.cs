@@ -20,6 +20,7 @@ using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstract.UI_themes;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Facade;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern.LogisticsApp;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Singleton;
@@ -74,7 +75,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunFruit.DemoMain();
             //RunApplication.DemoMain();
             //RunFactory.DemoMain();
-            RunTransportPattern.DemoMain();
+            //RunTransportPattern.DemoMain();
+            RunFacadeDvdApp.DemoMain();
         }
     }
 }

@@ -88,6 +88,7 @@
     <Compile Include="Lesson8\ObVar.cs" />
     <Compile Include="Lesson9\ProjectEuler.cs" />
     <Compile Include="Mhate_Ex\Fruit.cs" />
+    <Compile Include="Mhate_Ex\Pernting.cs" />
     <Compile Include="Networking\GetUserIp.cs" />
     <Compile Include="OOP Buiding App\BuldingAppMain.cs" />
     <Compile Include="OOP DB App\Common\ChangeBgAndFontColor.cs" />
@@ -127,6 +128,9 @@
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\Truck.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\TruckFactory.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\FactoryMethodPattern\VehicleFactory.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Prototype\Car.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Prototype\CarRepository.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Prototype\RunPrototype.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\CarRenting.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\Singleton.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Singleton\User.cs" />

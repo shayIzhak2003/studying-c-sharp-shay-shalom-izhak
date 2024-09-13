@@ -23,6 +23,7 @@ using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstrac
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Facade;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern.LogisticsApp;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Prototype;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Singleton;
 using studying_c_sharp_shay_shalom_izhak.Yutube;
 using System;
@@ -76,7 +77,9 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunApplication.DemoMain();
             //RunFactory.DemoMain();
             //RunTransportPattern.DemoMain();
-            RunFacadeDvdApp.DemoMain();
+            //RunFacadeDvdApp.DemoMain();
+            //RunPrototype.DemoMain();
+            RunPerenting.DemoMain();
         }
     }
 }

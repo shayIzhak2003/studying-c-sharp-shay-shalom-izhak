@@ -107,6 +107,20 @@
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightButton.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightCheckbox.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\LightThemeFactory.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\BiscuitsBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\BisliSnackBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\FrozenChickenBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\IProductBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\Manufacturer.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\Package.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\Product.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\ProductDirector.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\Product Manngement app\RunProducts.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\real estate app\House.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\real estate app\HouseBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\real estate app\HouseDirector.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\real estate app\IHouseBuilder.cs" />
+    <Compile Include="Summer_Smmaster\Design patterns\Builder\real estate app\RunRealEsteteApp.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Facade\DVDPlayer.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Facade\Facade Class\HomeTheaterFacade.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Facade\RunFacadeDvdApp.cs" />
@@ -146,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson7\Equals Mathod\" />
+    <Folder Include="Summer_Smmaster\Design patterns\Add\" />
     <Folder Include="Transportaion-Cargo\" />
     <Folder Include="Trensportaion app\Cummon\" />
   </ItemGroup>

@@ -20,6 +20,8 @@ using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstract.UI_themes;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.Product_Manngement_app;
+using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.real_estate_app;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Facade;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.FactoryMethodPattern.LogisticsApp;
@@ -79,7 +81,9 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunTransportPattern.DemoMain();
             //RunFacadeDvdApp.DemoMain();
             //RunPrototype.DemoMain();
-            RunPerenting.DemoMain();
+            //RunPerenting.DemoMain();
+            //RunRealEsteteApp.DemoMain();
+            RunProducts.DemoMain();
         }
     }
 }

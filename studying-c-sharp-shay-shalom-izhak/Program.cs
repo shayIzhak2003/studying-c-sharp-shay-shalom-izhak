@@ -19,6 +19,7 @@ using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
 using studying_c_sharp_shay_shalom_izhak.OOP_DB_App.Common;
 using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
+using studying_c_sharp_shay_shalom_izhak.projectEwler;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstract.UI_themes;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.Product_Manngement_app;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.real_estate_app;
@@ -83,7 +84,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunPrototype.DemoMain();
             //RunPerenting.DemoMain();
             //RunRealEsteteApp.DemoMain();
-            RunProducts.DemoMain();
+            //RunProducts.DemoMain();
+            RunSoultion.DemoMain();
         }
     }
 }

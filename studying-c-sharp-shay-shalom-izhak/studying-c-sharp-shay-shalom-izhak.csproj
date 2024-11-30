@@ -96,6 +96,7 @@
     <Compile Include="OOP DB App\Objects.cs" />
     <Compile Include="OOP Stock App\ExchangeDemoHomeWork.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="projectEwler\Soultion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\Application.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkButton.cs" />

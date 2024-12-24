@@ -87,6 +87,13 @@
     <Compile Include="Lesson8\Casting\Shap3.cs" />
     <Compile Include="Lesson8\ObVar.cs" />
     <Compile Include="Lesson9\ProjectEuler.cs" />
+    <Compile Include="Mhate_Ex\EX1\KidsShoe.cs" />
+    <Compile Include="Mhate_Ex\EX1\Mahat1.cs" />
+    <Compile Include="Mhate_Ex\EX1\MensShoe.cs" />
+    <Compile Include="Mhate_Ex\EX1\RunShoesApp.cs" />
+    <Compile Include="Mhate_Ex\EX1\Shoe.cs" />
+    <Compile Include="Mhate_Ex\EX1\Storage.cs" />
+    <Compile Include="Mhate_Ex\EX1\WomensShoe.cs" />
     <Compile Include="Mhate_Ex\Fruit.cs" />
     <Compile Include="Mhate_Ex\Pernting.cs" />
     <Compile Include="Networking\GetUserIp.cs" />

@@ -15,6 +15,7 @@ using studying_c_sharp_shay_shalom_izhak.Lesson8;
 using studying_c_sharp_shay_shalom_izhak.Lesson8.Casting;
 using studying_c_sharp_shay_shalom_izhak.Lesson9;
 using studying_c_sharp_shay_shalom_izhak.Mhate_Ex;
+using studying_c_sharp_shay_shalom_izhak.Mhate_Ex.employee_managment_system;
 using studying_c_sharp_shay_shalom_izhak.Mhate_Ex.EX1;
 using studying_c_sharp_shay_shalom_izhak.Networking;
 using studying_c_sharp_shay_shalom_izhak.OOP_Buiding_App;
@@ -88,7 +89,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunProducts.DemoMain();
             //RunSoultion.DemoMain();
             //RunMahat1.DemoMain();
-            RunShoesApp.DemoMain();
+            //RunShoesApp.DemoMain();
+            RunEmployeeApp.DemoMain();
         }
     }
 }

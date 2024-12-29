@@ -87,6 +87,12 @@
     <Compile Include="Lesson8\Casting\Shap3.cs" />
     <Compile Include="Lesson8\ObVar.cs" />
     <Compile Include="Lesson9\ProjectEuler.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\Employe.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\Head.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\Lecturer.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\RunEmployeeApp.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\TeachingStaff.cs" />
+    <Compile Include="Mhate_Ex\employee managment system\Tutor.cs" />
     <Compile Include="Mhate_Ex\EX1\KidsShoe.cs" />
     <Compile Include="Mhate_Ex\EX1\Mahat1.cs" />
     <Compile Include="Mhate_Ex\EX1\MensShoe.cs" />

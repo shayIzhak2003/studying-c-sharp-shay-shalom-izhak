@@ -16,10 +16,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson10
 
         public Animales(string name, int age, bool isPredator, int caloriesPerMeal)
         {
-            Name = name;
-            Age = age;
-            IsPredator = isPredator;
-            CaloriesPerMeal = caloriesPerMeal;
+            this.Name = name;
+            this.Age = age;
+            this.IsPredator = isPredator;
+            this.CaloriesPerMeal = caloriesPerMeal;
         }
         public virtual int Eat()
         {

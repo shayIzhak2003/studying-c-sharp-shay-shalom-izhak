@@ -111,6 +111,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="projectEwler\Soultion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ran Object Oriented\BasicObject.cs" />
+    <Compile Include="Ran Object Oriented\Car App\Car.cs" />
+    <Compile Include="Ran Object Oriented\Car App\CarManngerApp.cs" />
+    <Compile Include="Ran Object Oriented\Car App\Veichle.cs" />
+    <Compile Include="Ran Object Oriented\Shape App\Shape.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\Application.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkButton.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkCheckbox.cs" />

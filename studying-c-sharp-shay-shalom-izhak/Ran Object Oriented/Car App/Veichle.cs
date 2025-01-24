@@ -10,7 +10,8 @@ namespace studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented.Car_App
     public class Veichle
     {
         private string name;
-        private int id = 1;
+        public static int PublicId = 0;
+        private int id = PublicId++;
         private string manufacture;
         private int price;
 
@@ -19,7 +20,7 @@ namespace studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented.Car_App
             this.name = name;
             this.manufacture = manufacture;
             this.price = price;
-            this.id = id++;
+            this.id = PublicId;
         }
 
         // getters and setters functions

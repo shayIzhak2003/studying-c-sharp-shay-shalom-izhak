@@ -24,6 +24,7 @@ using studying_c_sharp_shay_shalom_izhak.OOP_Stock_App;
 using studying_c_sharp_shay_shalom_izhak.projectEwler;
 using studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented;
 using studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented.Car_App;
+using studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented.Intarface.my_first_app;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Abstract.UI_themes;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.Product_Manngement_app;
 using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Builder.real_estate_app;
@@ -94,7 +95,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunShoesApp.DemoMain();
             //RunEmployeeApp.DemoMain();
             //RunBasicObject.DemoMain();
-            RunCarManngerApp.DemoMain();
+            //RunCarManngerApp.DemoMain();
+            RunElectronicsApp.DemoMain();
         }
     }
 }

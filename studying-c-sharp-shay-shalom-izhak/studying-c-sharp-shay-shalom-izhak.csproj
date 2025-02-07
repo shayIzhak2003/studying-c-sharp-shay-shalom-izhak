@@ -115,6 +115,10 @@
     <Compile Include="Ran Object Oriented\Car App\Car.cs" />
     <Compile Include="Ran Object Oriented\Car App\CarManngerApp.cs" />
     <Compile Include="Ran Object Oriented\Car App\Veichle.cs" />
+    <Compile Include="Ran Object Oriented\Intarface\my first app\Elctronics.cs" />
+    <Compile Include="Ran Object Oriented\Intarface\my first app\IElectric.cs" />
+    <Compile Include="Ran Object Oriented\Intarface\my first app\RunElectronicsApp.cs" />
+    <Compile Include="Ran Object Oriented\Intarface\my first app\Tv.cs" />
     <Compile Include="Ran Object Oriented\Shape App\Shape.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\Application.cs" />
     <Compile Include="Summer_Smmaster\Design patterns\Abstract\UI themes\DarkButton.cs" />

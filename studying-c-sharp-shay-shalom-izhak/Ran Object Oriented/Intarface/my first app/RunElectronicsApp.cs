@@ -8,6 +8,16 @@ namespace studying_c_sharp_shay_shalom_izhak.Ran_Object_Oriented.Intarface.my_fi
 {
     public class RunElectronicsApp
     {
+
+        public static object[] countObjects(object[] arr)
+        {
+            int countElectrinics = 0;
+            int countTv = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if()
+            }
+        }
         public static void DemoMain()
         {
             Elctronics e1 = new Elctronics("playstaion5", 230);

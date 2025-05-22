@@ -10,7 +10,14 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride
     public abstract class Shape
     {
         // Abstract method to calculate area
+        // מספיק להגדיר אותו
         public abstract double CalculateArea();
+        // צריך לשמש אותו
+        public virtual void GetHeigth()
+        {
+            Console.WriteLine("vitual function");
+        }
+        
     }
 
     // Derived class Circle
@@ -28,6 +35,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride
         public override double CalculateArea()
         {
             return Math.PI * Math.Pow(Radius, 2);
+        }
+        public override void GetHeigth()
+        {
+            Console.WriteLine("circle height");
         }
     }
 
@@ -49,6 +60,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride
         {
             return Width * Height;
         }
+        public override void GetHeigth()
+        {
+            Console.WriteLine("Rectangle height");
+        }
     }
 
     // Derived class Triangle
@@ -68,6 +83,10 @@ namespace studying_c_sharp_shay_shalom_izhak.Lesson7.Virtual___Ovveride
         public override double CalculateArea()
         {
             return 0.5 * Base * Height;
+        }
+        public override void GetHeigth()
+        {
+            Console.WriteLine("Triangle height");
         }
     }
 

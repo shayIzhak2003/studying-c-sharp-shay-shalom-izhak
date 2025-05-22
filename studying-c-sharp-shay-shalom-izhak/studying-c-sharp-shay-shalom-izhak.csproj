@@ -183,6 +183,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson7\Equals Mathod\" />
+    <Folder Include="poker_game\" />
     <Folder Include="recorder\" />
     <Folder Include="Summer_Smmaster\Design patterns\Add\" />
     <Folder Include="Transportaion-Cargo\" />

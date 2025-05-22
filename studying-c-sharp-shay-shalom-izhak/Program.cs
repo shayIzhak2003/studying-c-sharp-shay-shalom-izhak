@@ -36,6 +36,7 @@ using studying_c_sharp_shay_shalom_izhak.Summer_Smmaster.Design_patterns.Singlet
 using studying_c_sharp_shay_shalom_izhak.Yutube;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -96,7 +97,24 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunEmployeeApp.DemoMain();
             //RunBasicObject.DemoMain();
             //RunCarManngerApp.DemoMain();
-            RunElectronicsApp.DemoMain();
+            //RunElectronicsApp.DemoMain();
+            Console.WriteLine(5.0/0);
+            int count = 0;
+            Stopwatch stopwatch = new Stopwatch();
+            while (true)
+            {
+                stopwatch.Start();
+                count += 1; ;
+                Console.WriteLine(count);
+                if(count == 1000000)
+                {
+                    stopwatch.Stop();
+                    break;
+                }
+                
+            }
+            Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"Elapsed time: {stopwatch.Elapsed.TotalSeconds} seconds");
         }
     }
 }

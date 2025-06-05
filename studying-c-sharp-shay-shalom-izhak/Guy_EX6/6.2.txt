@@ -1,0 +1,32 @@
+﻿<ol data-end="1080" data-start="509">
+    <li data-end="633" data-start="509">
+        <p data-end="633" data-start="512">
+            <code data-end="537" data-start="512">Sport s1 = new BBall();</code><br data-end="540" data-start="537" />
+            ✅ <strong data-end="550" data-start="542">נכון</strong> – BBall יורשת מ-Ball, ש-&quot;משתמשת&quot; ב-Sport – כלומר יש היררכיה שמאפשרת הקצאה ל-Sport.</p>
+    </li>
+    <li data-end="699" data-start="635">
+        <p data-end="699" data-start="638">
+            <code data-end="663" data-start="638">Sport s2 = new MRace();</code><br data-end="666" data-start="663" />
+            ✅ <strong data-end="676" data-start="668">נכון</strong> – MRace יורשת מ-Sport.</p>
+    </li>
+    <li data-end="840" data-start="701">
+        <p data-end="840" data-start="704">
+            <code data-end="730" data-start="704">TTennis t1 = new Ball();</code><br data-end="733" data-start="730" />
+            ❌ <strong data-end="746" data-start="735">לא נכון</strong> – Ball היא מחלקת-אם של TTennis, לא מחלקת-בת. אי אפשר להכניס מופע של Ball למשתנה מסוג TTennis.</p>
+    </li>
+    <li data-end="933" data-start="842">
+        <p data-end="933" data-start="845">
+            <code data-end="871" data-start="845">BBall b1 = new IGroup();</code><br data-end="874" data-start="871" />
+            ❌ <strong data-end="887" data-start="876">לא נכון</strong> – IGroup היא ממשק, ולא ניתן ליצור מופע מממשק.</p>
+    </li>
+    <li data-end="997" data-start="935">
+        <p data-end="997" data-start="938">
+            <code data-end="962" data-start="938">IHall i1 = new Ball();</code><br data-end="965" data-start="962" />
+            ✅ <strong data-end="975" data-start="967">נכון</strong> – Ball יורשת מ-IHall.</p>
+    </li>
+    <li data-end="1080" data-start="999">
+        <p data-end="1080" data-start="1002">
+            <code data-end="1029" data-start="1002">IHall i2 = new TTennis();</code><br data-end="1032" data-start="1029" />
+            ✅ <strong data-end="1042" data-start="1034">נכון</strong> – TTennis יורשת מ-Ball שירשה מ-IHall.</p>
+    </li>
+</ol>

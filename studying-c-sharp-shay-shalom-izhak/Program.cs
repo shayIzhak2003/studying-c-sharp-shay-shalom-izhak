@@ -1,6 +1,7 @@
 ﻿using c_sharp_basics_lingar.object_basics;
 using studying_c_sharp_shay_shalom_izhak.classes;
 using studying_c_sharp_shay_shalom_izhak.Demo;
+using studying_c_sharp_shay_shalom_izhak.Guy_EX6;
 using studying_c_sharp_shay_shalom_izhak.Lesson10;
 using studying_c_sharp_shay_shalom_izhak.Lesson11;
 using studying_c_sharp_shay_shalom_izhak.Lesson3_HomeWork.Book___Author;
@@ -98,23 +99,8 @@ namespace studying_c_sharp_shay_shalom_izhak
             //RunBasicObject.DemoMain();
             //RunCarManngerApp.DemoMain();
             //RunElectronicsApp.DemoMain();
-            Console.WriteLine(5.0/0);
-            int count = 0;
-            Stopwatch stopwatch = new Stopwatch();
-            while (true)
-            {
-                stopwatch.Start();
-                count += 1; ;
-                Console.WriteLine(count);
-                if(count == 1000000)
-                {
-                    stopwatch.Stop();
-                    break;
-                }
-                
-            }
-            Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds} ms");
-            Console.WriteLine($"Elapsed time: {stopwatch.Elapsed.TotalSeconds} seconds");
+            DemoMain.VirtualMain();
+
         }
     }
 }

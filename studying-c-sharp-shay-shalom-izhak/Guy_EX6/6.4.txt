@@ -1,0 +1,11 @@
+﻿<ul data-end="2158" data-start="1960">
+    <li data-end="1994" data-start="1960">
+        <p data-end="1994" data-start="1962">
+&nbsp;מייצגת משחק כדור באולם. <code data-end="1968" data-start="1962">Ball</code></p>
+    </li>
+</ul>
+<p data-end="1994" data-start="1962">
+    אין צורך לשנות את ההיררכיה, מספיק שהוא ירש ממחלקת ספורט ויממש את הממשק של ספורט קבוצתי</p>
+<p data-end="1994" data-start="1962">
+    ובעיקרון זהו אין צורך בשינוי מבנה או ההיררכיה.
+</p>

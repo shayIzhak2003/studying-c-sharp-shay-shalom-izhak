@@ -48,6 +48,15 @@
     <Compile Include="Demo\AccessModifiers.cs" />
     <Compile Include="Demo\ObjectTamplate.cs" />
     <Compile Include="Demo\ThisKeyword.cs" />
+    <Compile Include="Guy_EX6\Ball.cs" />
+    <Compile Include="Guy_EX6\BBall.cs" />
+    <Compile Include="Guy_EX6\DemoMain.cs" />
+    <Compile Include="Guy_EX6\IGroup.cs" />
+    <Compile Include="Guy_EX6\IHall.cs" />
+    <Compile Include="Guy_EX6\MRace.cs" />
+    <Compile Include="Guy_EX6\RGymnastic.cs" />
+    <Compile Include="Guy_EX6\Sport.cs" />
+    <Compile Include="Guy_EX6\TTennis.cs" />
     <Compile Include="Lesson10\AbstractEx.cs" />
     <Compile Include="Lesson10\Animales.cs" />
     <Compile Include="Lesson10\CastingDemo.cs" />
@@ -188,6 +197,14 @@
     <Folder Include="Summer_Smmaster\Design patterns\Add\" />
     <Folder Include="Transportaion-Cargo\" />
     <Folder Include="Trensportaion app\Cummon\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Guy_EX6\6.2.txt">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Guy_EX6\6.4.txt">
+      <SubType>Component</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

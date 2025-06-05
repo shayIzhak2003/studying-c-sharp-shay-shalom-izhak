@@ -199,12 +199,8 @@
     <Folder Include="Trensportaion app\Cummon\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Guy_EX6\6.2.txt">
-      <SubType>Component</SubType>
-    </Content>
-    <Content Include="Guy_EX6\6.4.txt">
-      <SubType>Component</SubType>
-    </Content>
+    <Content Include="Guy_EX6\6.2.txt" />
+    <Content Include="Guy_EX6\6.4.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
